@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_empresa"
+        android:title="Empresa"
+        android:icon="@drawable/empresa" />
+    <item
+        android:id="@+id/nav_trabajadores"
+        android:title="Trabajadores"
+        android:icon="@drawable/icontrabajadores" />
+    <item
+        android:id="@+id/nav_reportes"
+        android:title="Reportes"
+        android:icon="@drawable/iconreportes" />
+    <item
+        android:id="@+id/nav_asignar"
+        android:title="Asignar Admin"
+        android:icon="@drawable/iconasignar" />
+</menu>

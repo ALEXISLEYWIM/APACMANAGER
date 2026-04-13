@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondologintwo"
+    tools:context="com.example.apacmanager.CLIENTE.DetalleProducto">
+
+    <!-- Toolbar con botón de regreso -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="@string/detalle_producto_title"
+        app:titleTextColor="@android:color/white"
+        app:navigationIcon="@drawable/ic_arrow_back" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Imagen del producto -->
+            <ImageView
+                android:id="@+id/ivProducto"
+                android:layout_width="0dp"
+                android:layout_height="280dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- Nombre del producto -->
+            <TextView
+                android:id="@+id/tvNombreProducto"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Producto Ejemplo"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintTop_toBottomOf="@id/ivProducto"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- Precio -->
+            <TextView
+                android:id="@+id/tvPrecio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S/ 89.90"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@id/tvNombreProducto"
+                app:layout_constraintStart_toStartOf="@id/tvNombreProducto" />
+
+            <!-- Stock -->
+            <TextView
+                android:id="@+id/tvStock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stock disponible: 45 unidades"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="4dp"
+                app:layout_constraintTop_toBottomOf="@id/tvPrecio"
+                app:layout_constraintStart_toStartOf="@id/tvNombreProducto" />
+
+            <!-- Descripción -->
+            <TextView
+                android:id="@+id/tvDescripcion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/descripcion_producto"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintTop_toBottomOf="@id/tvStock"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- Cantidad -->
+            <TextView
+                android:id="@+id/tvCantidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cantidad"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="32dp"
+                app:layout_constraintTop_toBottomOf="@id/tvDescripcion"
+                app:layout_constraintStart_toStartOf="@id/tvNombreProducto" />
+
+            <!-- Botones de cantidad -->
+            <LinearLayout
+                android:id="@+id/layoutCantidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bg_cantidad"
+                android:layout_marginTop="12dp"
+                app:layout_constraintTop_toBottomOf="@id/tvCantidad"
+                app:layout_constraintStart_toStartOf="@id/tvNombreProducto">
+
+                <Button
+                    android:id="@+id/btnDisminuir"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:text="-"
+                    android:textSize="20sp"
+                    android:background="@android:color/transparent" />
+
+                <TextView
+                    android:id="@+id/tvCantidadSeleccionada"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:text="1"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/btnAumentar"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:text="+"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/black"
+                    android:background="@android:color/transparent" />
+            </LinearLayout>
+
+            <!-- Botón Agregar al Pedido -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAgregarPedido"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="48dp"
+                android:text="@string/btn_agregar_pedido"
+                android:textSize="16sp"
+                app:cornerRadius="12dp"
+                app:layout_constraintTop_toBottomOf="@id/layoutCantidad"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

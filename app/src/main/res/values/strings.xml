@@ -1,0 +1,342 @@
+<resources>
+    <!-- App General -->
+    <string name="app_name">Apac Manager</string>
+    <string name="version">version1.0.0</string>
+    <!-- ====================== AUTH - LOGIN ====================== -->
+    <string name="login_subtitle">Gestiona tu negocio fácilmente</string>
+    <string name="login_new_user_message">¿Es tu primera vez? Regístrate para crear o unirte a una empresa</string>
+    <string name="hint_email_login">Correo electrónico</string>
+    <string name="hint_password_login">Contraseña</string>
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="tv_no_account">¿No tienes cuenta? Regístrate</string>
+
+    <!-- ====================== AUTH - REGISTER ====================== -->
+    <string name="register_title">Crear Cuenta</string>
+    <string name="register_subtitle">Ingresa tus datos para comenzar</string>
+    <string name="hint_nombre_register">Nombre completo</string>
+    <string name="hint_telefono_register">Teléfono</string>
+    <string name="hint_email_register">Correo electrónico</string>
+    <string name="hint_dni_register">DNI</string>
+    <string name="hint_password_register">Contraseña</string>
+    <string name="btn_register">Registrarse</string>
+    <string name="tv_already_have_account">¿Ya tienes cuenta? Inicia sesión</string>
+
+
+    <!-- ====================== AUTH - CREAR EMPRESA ====================== -->
+    <string name="crear_empresa_title">Crear Empresa</string>
+    <string name="crear_empresa_subtitle">Ingresa los datos de tu negocio</string>
+
+    <string name="hint_nombre_empresa">Nombre de la empresa</string>
+    <string name="hint_ruc">RUC (11 dígitos)</string>
+    <string name="hint_direccion">Dirección</string>
+    <string name="hint_telefono_empresa">Teléfono de la empresa</string>
+
+    <string name="label_tipo_empresa">Tipo de Empresa</string>
+    <string name="btn_crear_empresa">Crear Empresa</string>
+
+
+    <!-- ====================== AUTH - BUSCAR EMPRESA ====================== -->
+    <string name="buscar_empresa_title">Buscar Empresa</string>
+    <string name="buscar_empresa_subtitle">Encuentra la empresa a la que quieres unirte</string>
+    <string name="hint_buscar_empresa">Nombre o RUC de la empresa</string>
+    <string name="no_resultados_empresa">No se encontraron empresas</string>
+
+    <!-- ====================== JEFE - DASHBOARD ====================== -->
+    <string name="jefe_dashboard_title">Apac Manager - Jefe</string>
+    <string name="bienvenida_jefe">¡Bienvenido de nuevo!</string>
+    <string name="label_ganancias_hoy">Ganancias de hoy</string>
+    <string name="accesos_rapidos">Accesos rápidos</string>
+
+    <string name="opcion_gestion_empresa">Gestionar Empresa</string>
+    <string name="opcion_ver_trabajadores">Ver Trabajadores</string>
+    <string name="opcion_ver_reportes">Ver Reportes</string>
+    <string name="opcion_asignar_admin">Asignar Administrador</string>
+
+    <!-- ====================== ADMIN - DASHBOARD ====================== -->
+    <string name="admin_dashboard_title">Apac Manager - Admin</string>
+    <string name="bienvenida_admin">¡Hola, Administrador!</string>
+    <string name="label_trabajadores_activos">Trabajadores activos</string>
+    <string name="accesos_rapidos1">Accesos rápidos</string>
+    <string name="btn_agregar_producto">Agregar producto</string>
+    <string name="opcion_gestion_trabajadores">Gestionar Trabajadores</string>
+    <string name="opcion_gestion_tareas">Gestionar Tareas</string>
+    <string name="opcion_asistencia">Asistencia</string>
+    <string name="opcion_catalogo">Catálogo de Productos</string>
+
+    <!-- ====================== TRABAJADOR - DASHBOARD ====================== -->
+    <string name="trabajador_dashboard_title">Apac Manager - Trabajador</string>
+    <string name="bienvenida_trabajador">¡Hola!</string>
+    <string name="label_proxima_tarea">Tu próxima tarea</string>
+
+    <string name="opcion_ver_tareas">Ver Tareas</string>
+    <string name="opcion_marcar_asistencia">Marcar Asistencia</string>
+    <string name="opcion_ver_horario">Ver Horario</string>
+    <string name="opcion_ver_sueldo">Ver Sueldo</string>
+
+
+    <!-- ====================== CLIENTE - DASHBOARD ====================== -->
+    <string name="cliente_dashboard_title">Apac Manager - Cliente</string>
+    <string name="bienvenida_cliente">¡Bienvenido!</string>
+    <string name="label_bienvenido_cliente">¿Qué deseas hacer hoy?</string>
+
+    <string name="opcion_buscar_empresa">Buscar Empresa</string>
+    <string name="opcion_ver_catalogo">Ver Catálogo</string>
+    <string name="opcion_mis_pedidos">Mis Pedidos</string>
+    <string name="opcion_mensajes">Mensajes</string>
+
+    <!-- ====================== ADMIN - CATÁLOGO ====================== -->
+    <string name="catalogo_title">Catálogo de Productos</string>
+    <string name="hint_buscar_producto">Buscar producto...</string>
+    <string name="no_productos_encontrados">No se encontraron productos</string>
+
+    <!-- ====================== TRABAJADOR - MARCAR ASISTENCIA ====================== -->
+    <string name="marcar_asistencia_title">Marcar Asistencia</string>
+    <string name="estado_asistencia">Estado actual</string>
+    <string name="btn_marcar_entrada">Marcar Entrada</string>
+    <string name="btn_marcar_salida">Marcar Salida</string>
+    <string name="info_tolerancia">Tolerancia de 5 minutos • La tardanza se registrará automáticamente</string>
+
+    <!-- ====================== TRABAJADOR - VER TAREAS ====================== -->
+    <string name="ver_tareas_title">Mis Tareas</string>
+    <string name="tab_todas">Todas</string>
+    <string name="tab_pendientes">Pendientes</string>
+    <string name="tab_completadas">Completadas</string>
+    <string name="no_tareas_encontradas">No tienes tareas asignadas por el momento</string>
+
+    <!-- ====================== ADMIN - GESTION TRABAJADORES ====================== -->
+    <string name="gestion_trabajadores_title">Gestionar Trabajadores</string>
+    <string name="hint_buscar_trabajador">Buscar por nombre o DNI...</string>
+    <string name="no_trabajadores_encontrados">No se encontraron trabajadores</string>
+
+    <!-- ====================== CLIENTE - PEDIDOS ====================== -->
+    <string name="pedidos_title">Mis Pedidos</string>
+    <string name="tab_todos_pedidos">Todos</string>
+    <string name="tab_pendientes1">Pendientes</string>
+    <string name="tab_en_proceso">En Proceso</string>
+    <string name="tab_completados">Completados</string>
+    <string name="no_pedidos_encontrados">Aún no tienes pedidos</string>
+
+    <!-- ====================== ADMIN - GESTION TAREAS ====================== -->
+    <string name="gestion_tareas_title">Gestionar Tareas</string>
+    <string name="hint_buscar_tarea">Buscar tarea...</string>
+    <string name="tab_todas_tareas">Todas</string>
+    <string name="tab_pendientes_tareas">Pendientes</string>
+    <string name="tab_asignadas">Asignadas</string>
+    <string name="no_tareas_encontradas_admin">No hay tareas registradas</string>
+
+    <!-- ====================== ADMIN - ASISTENCIA ====================== -->
+    <string name="asistencia_title">Registro de Asistencia</string>
+    <string name="hint_buscar_asistencia">Buscar trabajador...</string>
+    <string name="no_registros_asistencia">No hay registros de asistencia para esta fecha</string>
+
+    <!-- ====================== ADMIN - GESTION CLIENTES ====================== -->
+    <string name="gestion_clientes_title">Gestionar Clientes</string>
+    <string name="hint_buscar_cliente">Buscar por nombre o teléfono...</string>
+    <string name="no_clientes_encontrados">No se encontraron clientes</string>
+
+    <!-- ====================== TRABAJADOR - VER HORARIO ====================== -->
+    <string name="ver_horario_title">Mi Horario</string>
+    <string name="semana_actual">Semana del 6 al 12 de Abril</string>
+
+    <string name="dia_lunes">Lunes</string>
+    <string name="dia_martes">Martes</string>
+    <string name="dia_miercoles">Miércoles</string>
+    <string name="dia_jueves">Jueves</string>
+    <string name="dia_viernes">Viernes</string>
+
+    <string name="nota_horario">Nota: Los horarios pueden cambiar según necesidades de la empresa</string>
+
+    <!-- ====================== TRABAJADOR - PERFIL ====================== -->
+    <string name="perfil_title">Mi Perfil</string>
+    <string name="info_personal">Información Personal</string>
+
+    <string name="label_telefono">Teléfono:</string>
+    <string name="label_email">Correo:</string>
+    <string name="label_dni">DNI:</string>
+    <string name="label_sueldo">Sueldo base:</string>
+
+    <string name="btn_cerrar_sesion">Cerrar Sesión</string>
+
+    <!-- ====================== ADMIN - MENSAJES ====================== -->
+    <string name="mensajes_title">Mensajes</string>
+    <string name="no_mensajes">No tienes mensajes aún</string>
+    <string name="btn_nuevo_mensaje">Nuevo mensaje</string>
+
+
+    <!-- ====================== CLIENTE - DETALLE PRODUCTO ====================== -->
+    <string name="detalle_producto_title">Detalle del Producto</string>
+    <string name="descripcion_producto">Descripción detallada del producto. Aquí va la información completa sobre características, beneficios y especificaciones.</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="btn_agregar_pedido">Agregar al Pedido</string>
+
+    <!-- ====================== CLIENTE - CATÁLOGO ====================== -->
+    <string name="catalogo_cliente_title">Catálogo</string>
+    <string name="hint_buscar_producto_cliente">Buscar productos...</string>
+    <string name="no_productos_cliente">No hay productos disponibles en este momento</string>
+
+    <!-- ====================== CLIENTE - MENSAJES ====================== -->
+    <string name="mensajes_cliente_title">Mensajes</string>
+    <string name="no_mensajes_cliente">Aún no tienes mensajes</string>
+
+
+    <!-- ====================== CLIENTE - PERFIL ====================== -->
+    <string name="perfil_cliente_title">Mi Perfil</string>
+
+
+    <!-- ====================== CLIENTE - BUSCAR EMPRESA ====================== -->
+    <string name="buscar_empresa_cliente_title">Buscar Empresa</string>
+    <string name="buscar_empresa_cliente_subtitle">Encuentra la empresa a la que quieres unirte o comprar</string>
+    <string name="hint_buscar_empresa_cliente">Nombre de la empresa o RUC</string>
+    <string name="no_empresas_encontradas">No se encontraron empresas</string>
+
+    <!-- ====================== AUTH - SELECCION ROL ====================== -->
+    <string name="seleccion_rol_title">Seleccionar Rol</string>
+    <string name="seleccion_rol_subtitle">Elige tu rol en la aplicación</string>
+
+    <string name="rol_jefe">Jefe / Dueño de Empresa</string>
+    <string name="rol_jefe_desc">Crear y gestionar toda la empresa</string>
+
+    <string name="rol_administrador">Administrador</string>
+    <string name="rol_admin_desc">Gestionar trabajadores, tareas y catálogo</string>
+
+    <string name="rol_trabajador">Trabajador</string>
+    <string name="rol_trabajador_desc">Ver tareas, marcar asistencia y horario</string>
+
+    <string name="rol_cliente">Cliente</string>
+    <string name="rol_cliente_desc">Buscar empresas, ver catálogo y hacer pedidos</string>
+
+
+    <!-- ====================== JEFE - GESTION EMPRESA ====================== -->
+    <string name="gestion_empresa_title">Gestión de Empresa</string>
+    <string name="info_empresa">Información de tu empresa</string>
+    <string name="label_ruc">RUC</string>
+    <string name="label_direccion">Dirección</string>
+    <string name="label_telefono_empresa">Teléfono</string>
+
+    <string name="btn_editar_empresa">Editar Información</string>
+    <string name="btn_ver_reportes">Ver Reportes y Ganancias</string>
+    <string name="btn_asignar_admin">Asignar Administrador</string>
+
+    <!-- ====================== JEFE - VER REPORTES ====================== -->
+    <string name="ver_reportes_title">Reportes y Estadísticas</string>
+    <string name="label_ganancias_totales">Ganancias Totales</string>
+    <string name="opciones_reportes">Reportes Disponibles</string>
+
+    <string name="reporte_ventas_mes">Ventas del Mes</string>
+    <string name="reporte_asistencia">Asistencia</string>
+    <string name="reporte_trabajadores">Trabajadores</string>
+    <string name="reporte_pedidos">Pedidos</string>
+
+    <!-- ====================== JEFE - ASIGNAR ADMIN ====================== -->
+    <string name="asignar_admin_title">Asignar Administrador</string>
+    <string name="asignar_admin_subtitle">Selecciona un trabajador para asignarle rol de Administrador</string>
+    <string name="hint_buscar_trabajador_admin">Buscar trabajador por nombre o DNI...</string>
+    <string name="no_trabajadores_encontrador">No se encontraron trabajadores</string>
+    <string name="btn_confirmar_asignacion">Asignar como Administrador</string>
+
+
+    <!-- ====================== ADMIN - AGREGAR TRABAJADOR ====================== -->
+    <string name="agregar_trabajador_title">Agregar Nuevo Trabajador</string>
+    <string name="hint_nombre_trabajador">Nombre completo</string>
+    <string name="hint_telefono_trabajador">Teléfono</string>
+    <string name="hint_email_trabajador">Correo electrónico</string>
+    <string name="hint_dni_trabajador">DNI</string>
+    <string name="btn_agregar_trabajador">Agregar Trabajador</string>
+
+
+    <!-- ====================== ADMIN - EDITAR TRABAJADOR ====================== -->
+    <string name="editar_trabajador_title">Editar Trabajador</string>
+    <string name="label_estado">Estado del trabajador</string>
+    <string name="btn_guardar_cambios">Guardar Cambios</string>
+    <string name="btn_eliminar_trabajador">Desactivar Trabajador</string>
+
+    <string name="agregar_cliente">agregar clientes</string>
+
+
+    <!-- ====================== TRABAJADOR - MENSAJES ====================== -->
+    <string name="mensajes_trabajador_title">Mensajes</string>
+    <string name="no_mensajes_trabajador">Aún no tienes mensajes</string>
+
+
+    <!-- Agregar al archivo res/values/strings.xml -->
+
+    <!-- Títulos de pantalla -->
+    <string name="agregar_tarea_title">Nueva Tarea</string>
+    <string name="editar_tarea_title">Editar Tarea</string>
+
+    <!-- Hints de campos -->
+    <string name="hint_nombre_tarea">Nombre de la tarea</string>
+    <string name="hint_descripcion_tarea">Descripción</string>
+    <string name="hint_fecha_limite">Fecha límite</string>
+    <string name="hint_estado_tarea">Estado</string>
+
+    <!-- Labels -->
+    <string name="label_asignar_trabajadores">Asignar a trabajadores</string>
+
+    <!-- Botones AgregarTarea -->
+    <string name="btn_guardar_tarea">Guardar Tarea</string>
+    <string name="btn_cancelar">Cancelar</string>
+
+    <!-- Botones EditarTarea -->
+    <string name="btn_actualizar_tarea">Actualizar Tarea</string>
+    <string name="btn_eliminar_tarea">Eliminar Tarea</string>
+
+    <!-- Estados del spinner (usados en el Adapter/código) -->
+    <string name="estado_pendiente">Pendiente</string>
+    <string name="estado_en_progreso">En progreso</string>
+    <string name="estado_completada">Completada</string>
+
+    <!-- Mensajes de validación -->
+    <string name="error_nombre_requerido">El nombre es requerido</string>
+    <string name="error_fecha_requerida">La fecha límite es requerida</string>
+    <string name="error_trabajador_requerido">Debes asignar al menos un trabajador</string>
+
+    <!-- Confirmación eliminación -->
+    <string name="dialog_eliminar_tarea_titulo">Eliminar tarea</string>
+    <string name="dialog_eliminar_tarea_mensaje">¿Estás seguro de que deseas eliminar esta tarea? Esta acción no se puede deshacer.</string>
+    <string name="dialog_confirmar">Confirmar</string>
+
+
+    <!-- Agregar al archivo res/values/strings.xml -->
+
+    <!-- Títulos de pantalla -->
+    <string name="agregar_producto_title">Nuevo Producto</string>
+    <string name="editar_producto_title">Editar Producto</string>
+
+    <!-- Hints de campos -->
+    <string name="hint_nombre_producto">Nombre del producto</string>
+    <string name="hint_descripcion_producto">Descripción</string>
+    <string name="hint_precio">Precio</string>
+    <string name="hint_stock">Stock</string>
+
+    <!-- Labels -->
+    <string name="label_disponible">Disponible para venta</string>
+    <string name="cd_imagen_producto">Imagen del producto</string>
+
+    <!-- Botones AgregarProducto -->
+    <string name="btn_guardar_producto">Guardar Producto</string>
+
+    <!-- Botones EditarProducto -->
+    <string name="btn_actualizar_producto">Actualizar Producto</string>
+    <string name="btn_eliminar_producto">Eliminar Producto</string>
+
+    <!-- Mensajes de validación -->
+    <string name="error_nombre_producto_requerido">El nombre del producto es requerido</string>
+    <string name="error_precio_requerido">El precio es requerido</string>
+    <string name="error_precio_invalido">Ingresa un precio válido</string>
+    <string name="error_stock_requerido">El stock es requerido</string>
+
+    <!-- Confirmación eliminación -->
+    <string name="dialog_eliminar_producto_titulo">Eliminar producto</string>
+    <string name="dialog_eliminar_producto_mensaje">¿Estás seguro de que deseas eliminar este producto? Esta acción no se puede deshacer.</string>
+
+    <!-- Mensajes de éxito -->
+    <string name="producto_guardado_ok">Producto guardado correctamente</string>
+    <string name="producto_actualizado_ok">Producto actualizado correctamente</string>
+    <string name="producto_eliminado_ok">Producto eliminado correctamente</string>
+
+    <!-- Imagen -->
+    <string name="seleccionar_imagen">Seleccionar imagen</string>
+    <string name="tomar_foto">Tomar foto</string>
+    <string name="elegir_galeria">Elegir de galería</string>
+</resources>

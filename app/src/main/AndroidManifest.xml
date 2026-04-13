@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_logoapk"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logoapk_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.APACManager">
+        <activity
+            android:name=".ADMIN.EditarProducto"
+            android:exported="false" />
+        <activity
+            android:name=".ADMIN.AgregarProducto"
+            android:exported="false" />
+        <activity
+            android:name=".ADMIN.EditarTarea"
+            android:exported="false" />
+        <activity
+            android:name=".ADMIN.AgregarTarea"
+            android:exported="false" />
+        <activity
+            android:name=".JEFE.EditarEmpresa"
+            android:exported="false" /> <!-- AUTH -->
+        <activity android:name=".AUTH.LoginActivity" />
+        <activity android:name=".AUTH.RegisterActivity" />
+        <activity android:name=".AUTH.SeleccionRol" />
+        <activity android:name=".AUTH.BuscarEmpresa" />
+        <activity android:name=".AUTH.CrearEmpresa" /> <!-- JEFE -->
+        <activity android:name=".JEFE.JefeDashboard" />
+        <activity android:name=".JEFE.GestionEmpresa" />
+        <activity android:name=".JEFE.VerReportes" />
+        <activity android:name=".JEFE.AsignarAdmin" /> <!-- ADMIN -->
+        <activity android:name=".ADMIN.AdminDashboard" />
+        <activity android:name=".ADMIN.GestionTrabajadores" />
+        <activity android:name=".ADMIN.AgregarTrabajador" />
+        <activity android:name=".ADMIN.EditarTrabajador" />
+        <activity android:name=".ADMIN.GestionTareas" />
+        <activity android:name=".ADMIN.Asistencias" />
+        <activity android:name=".ADMIN.GestionClientes" />
+        <activity android:name=".ADMIN.Catalogo" />
+        <activity android:name=".ADMIN.Mensajes" /> <!-- TRABAJADOR -->
+        <activity android:name=".TRABAJADOR.TrabajadorDashboard" />
+        <activity android:name=".TRABAJADOR.VerHorario" />
+        <activity android:name=".TRABAJADOR.VerTareas" />
+        <activity android:name=".TRABAJADOR.MarcarAsistencia" />
+        <activity android:name=".TRABAJADOR.PerfilTrabajador" />
+        <activity android:name=".TRABAJADOR.MensajesTrabajador" /> <!-- CLIENTE -->
+        <activity android:name=".CLIENTE.ClienteDashboard" />
+        <activity android:name=".CLIENTE.BuscarEmpresaCliente" />
+        <activity android:name=".CLIENTE.CatalogoCliente" />
+        <activity android:name=".CLIENTE.DetalleProducto" />
+        <activity android:name=".CLIENTE.Pedidos" />
+        <activity android:name=".CLIENTE.MensajesCliente" />
+        <activity android:name=".CLIENTE.PerfilCliente" /> <!-- MAIN -->
+        <activity
+            android:name=".Main"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

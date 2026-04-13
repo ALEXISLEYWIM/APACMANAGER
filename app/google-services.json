@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "854079342615",
+    "firebase_url": "https://apacmanager-188b5-default-rtdb.firebaseio.com",
+    "project_id": "apacmanager-188b5",
+    "storage_bucket": "apacmanager-188b5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854079342615:android:8950216fd7a1b55f44b452",
+        "android_client_info": {
+          "package_name": "com.example.apacmanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpe8N-d6I1S2HYSiNwPdcF7pJ1-M-uJro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

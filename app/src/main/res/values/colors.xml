@@ -1,0 +1,9 @@
+<resources>
+    <color name="colorPrimary">#1E88E5</color>        <!-- Azul moderno -->
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#757575</color>
+    <color name="gray_dark">#424242</color>
+    <color name="gray_light">#D3D3D3</color>
+    <color name="primary">#4CAF50</color>
+    <color name="black">#000000</color>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_trabajadores" android:title="Trabajadores" android:icon="@drawable/iconsgestiona" />
+    <item android:id="@+id/nav_tareas" android:title="Tareas" android:icon="@drawable/icogestionempleados" />
+    <item android:id="@+id/nav_asistencia" android:title="Asistencia" android:icon="@drawable/iconasistencia" />
+    <item android:id="@+id/nav_catalogo" android:title="Catálogo" android:icon="@drawable/icontienda" />
+</menu>
