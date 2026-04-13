@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/cargatwo"
+    android:background="@drawable/fondologintwo"
     tools:context="com.example.apacmanager.ADMIN.AgregarProducto">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -180,10 +180,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="@string/label_disponible"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="14sp"
                 android:checked="true"
-                app:thumbTint="@android:color/white"
+                app:thumbTint="@android:color/black"
                 app:trackTint="@color/colorPrimary"
                 app:layout_constraintTop_toBottomOf="@id/tilStock"
                 app:layout_constraintStart_toStartOf="parent"

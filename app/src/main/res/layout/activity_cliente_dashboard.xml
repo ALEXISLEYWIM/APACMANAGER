@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondologintwo"
+    android:background="@drawable/fondoclientesdas"
     tools:context="com.example.apacmanager.CLIENTE.ClienteDashboard">
 
     <!-- Toolbar -->

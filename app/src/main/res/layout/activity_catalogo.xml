@@ -5,7 +5,7 @@
     android:id="@+id/rootCatalogoAdmin"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/cargatwo"
+    android:background="@drawable/fondologintwo"
     tools:context="com.example.apacmanager.ADMIN.Catalogo">
 
     <!-- AppBar (corrección clave) -->
